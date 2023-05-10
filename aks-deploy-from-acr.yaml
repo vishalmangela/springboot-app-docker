@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-springboot-app
-        image: cxioregistry.azurecr.io/vishalmangela/springboot-app-docker:#{Build.BuildId}#
+        image: cxioacrindia.azurecr.io/vishalmangela/springboot-app-docker:#{Build.BuildId}#
         imagePullPolicy: Always
         ports:
         - containerPort: 8085
